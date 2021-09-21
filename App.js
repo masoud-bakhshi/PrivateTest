@@ -8,7 +8,9 @@ function App() {
     <BrowserRouter basename="/6092b28a8fda4729541cf5a5/">
       <Switch>
         <Route path="/" component={Home} exact />
-
+  <Route path="/" component={Home} exact />
+    <Route path="/" component={Home} exact />
+	<div/>
         {/* <Route path="/404" component={My404Component} /> */}
         <Redirect from="*" to="/" />
       </Switch>
